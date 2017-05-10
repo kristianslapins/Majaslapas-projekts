@@ -1,0 +1,240 @@
+html {
+    min-height: 100%;
+    float: none;
+}
+
+
+section {
+    font-family: 'Quicksand', sans-serif;
+    min-height: 100%;
+}
+
+.footer {
+    width: 100%;
+    bottom: 0;
+    position: relative;
+}
+
+@media print {
+  img {
+    display: none !important;
+  }
+
+  * {
+    background-image: none !important;
+  }
+}
+
+.galerija{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	width: 800px;
+	margin: auto;
+}
+
+.gallery {
+    padding-bottom: 10em;
+}
+
+.index {
+    padding-top: 10em;
+	padding-bottom: 10em;
+}
+
+.gallery small {
+    color: gray;
+}
+
+.gallery-border a img,
+iframe {
+    background-size: cover;
+    height: 250px;
+    width: 100%;
+}
+
+.gallery-border button {
+    border-width: 1px;
+    width: 100%;
+}
+
+.gallery-border {
+    padding: 10pt;
+    margin-top: 15px;
+    border: 1px solid grey !important;
+}
+
+.cv {
+    font-size: 12pt;
+}
+
+.cv-text {
+    color: black;
+}
+
+.source-link {
+    text-emphasis: none;
+    text-decoration: none;
+    color: #4bdca3;
+}
+
+.source-link:hover {
+    color: #4bdca3;
+}
+
+.portfolio-item b {
+    color: white;
+    padding: 8pt;
+}
+
+.jumbotron p{
+	font-size: 12pt;
+}
+.jumbotron h1,
+.jumbotron ul li,
+.jumbotron h3 {
+    color: black !important;
+}
+
+.jumbotron form {
+    color: black;
+    margin-left: 20pt;
+}
+
+.nav-pills a {
+    font-family: 'Quicksand', sans-serif;
+    color: gray;
+    filter: invert(10%)
+}
+
+.nav-pills li a:hover {
+    background: rgba(0, 0, 0, .02) !important;
+}
+
+.jumbotron {
+    font-family: 'Quicksand', sans-serif;
+    transform: translateY(10vh);
+    border-radius: 10px;
+    padding: 10pt;
+    min-height: 750px;
+    background: rgba(255, 255, 255, .2);
+}
+
+#under {
+	background-color: rgba(0, 255, 255, 0.05);
+}
+
+.line {
+    width: 60px;
+    float: left;
+    border-color: #4bdca3;
+    border-width: medium;
+    margin-bottom: 10pt;
+}
+
+.page-center {
+    position: absolute;
+    margin: 0 auto;
+    transform: translateY(35vh);
+}
+
+.vertical-align {
+    transform: translateY(20vh);
+}
+
+.centered-section {
+    position: relative;
+    text-align: center;
+    max-width: 980px;
+    overflow: hidden;
+    font-family: 'Quicksand', sans-serif;
+    color: #ffffff;
+}
+
+.opaquebutton {
+    color: gray;
+    border-radius: 5px;
+    border-color: gray;
+    border-width: 2px;
+    font-size: 17px;
+    margin-top: 15pt;
+    background: rgba(255, 255, 255, .1);
+}
+
+.opaquebutton:hover,
+.opaquebutton:focus {
+    color: #000000;
+    border-color: #000000;
+    background: rgba(255, 255, 255, .3);
+}
+
+.navbar {
+    width: 100%;
+    padding: 10px;
+	color:#000000;
+}
+
+.infotext {
+    padding-top: 10pt;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar-collapse {
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+}
+
+
+
+.navbar {
+    /position: absolute;
+}
+
+#custom-bootstrap-menu.navbar-default .navbar-brand {
+    color: rgba(0, 0, 0, 1);
+    font-size: 20pt;
+    letter-spacing: 4px;
+    font-family: 'Iceberg', cursive;
+}
+
+#custom-bootstrap-menu.navbar-default {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-bottom-width: 0px;
+}
+
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
+    font-size: 13px;
+    font-family: 'Quicksand', sans-serif;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
+    color: rgba(240, 240, 240, 1);
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(240, 240, 240, 1);
+    background-color: rgba(0, 255, 255, 0.07);
+}
+
+#custom-bootstrap-menu.navbar-default .navbar-toggle {
+    border-color: #f0f0f0;
+}
+
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+}
+
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #ffffff;
+}
